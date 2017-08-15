@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load urlify %}
+{% block head_title %}
+{{ instance.title }} | {{ block.super }}
+{% endblock head_title %}
+
+{% block content %}
+<div class="col-sm-6 col-sm-offset-3">
+    {% if instance.image %}
+    <img src="{{ instance.image.url }}" class="img_responsive"/>
+    {% endif %}
+    <h1>{{ title }} <small>{{ instance.timestamp }}</small></h1>
+    {% if instance.user.get_full_name %}
+    <p>Author: {{ instance.user.get_full_name }}</p>
+    {% endif %}
+    <p>
+    <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+    <hr/>
+    </p>
+    {{ instance.content|linebreaks }}</br>
+    <hr/>
+    <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+
+</div>
+
+{% endblock content %}
