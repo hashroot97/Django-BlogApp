@@ -1,6 +1,6 @@
 # Django-BlogApp
 
-A blog app created in Django. It is currently deployed on Heroku --> bloghashroot.herokuapp.com/posts/
+A blog app created in Django. It is currently deployed on Heroku --> [Heroku App](bloghashroot.herokuapp.com/posts/)
 
 ## Screenshots 
 
