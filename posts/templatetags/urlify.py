@@ -1,4 +1,8 @@
-from urllib.parse import quote_plus
+try:
+    from urllib.parse import quote_plus
+except:
+    from urllib import quote_plus
+
 from django import template
 
 register = template.Library()
