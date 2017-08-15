@@ -4,8 +4,8 @@ A blog app created in Django. It is currently deployed on Heroku --> bloghashroo
 
 ## Screenshots 
 
-![Alt text](screenshots/blog1.jpeg?raw=true "Optional Title")
+![Alt text](blog1.jpeg?raw=true "Optional Title")
 
-![Alt text](screenshots/blog2.jpeg?raw=true "Optional Title")
+![Alt text](blog2.jpeg?raw=true "Optional Title")
 
-![Alt text](screenshots/blog3.jpeg?raw=true "Optional Title")
+![Alt text](blog3.jpeg?raw=true "Optional Title")
